@@ -1,0 +1,69 @@
+.Registration strong{
+	margin-right: 20px;
+}
+.Registration{
+text-align: center;
+    font-size: 28px;
+}
+.Registration h1{
+	color: #028182;
+}
+.Registration strong{
+	color: #028182; 
+}
+.button{
+	
+	font-size: 22px; 
+	border-radius: 12px;
+	background: #028182;
+	color: white;
+}
+input[type=text] {
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 7px;
+	    
+}
+input[type=password] {
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 7px;
+	   
+}
+.formpage{
+    height: 280px;
+    width: 425px;
+    font-size: 40px;
+    color: #028182;
+    margin: 0 auto;
+}
+input[type=submit] {
+	border: 2px solid #028182;
+	border-radius: 4px;
+	    font-size: 20px;
+    background: #028182;
+    color: white;
+
+}
+.selecttype{
+    width: 230px;
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+
+}
+label.frmlabl {
+    width: 175px !important;
+    float: left;
+    text-align: right;
+}
+input.frmledi {
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 7px;
+}

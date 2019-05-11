@@ -1,0 +1,262 @@
+
+body {
+  font-family: cambria;
+  margin: 0;
+  padding: 0;
+}
+
+.profile img {
+    width: 50px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#028182;
+  overflow-x: hidden;
+  padding-top: 3px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #e02c0f;
+}
+
+/* Main content */
+.main {
+    margin-left: 20%;
+    font-size: 20px;
+    padding: 0px 0px;
+
+    width: 80%;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #028182;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 18px;
+    color: #fff;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav h1, h3 {
+    color: #fff;text-align: center;
+}
+.profile {
+    background-color: #028182;
+    height: 125px;
+    position: fixed;
+    width: 80%;
+}
+.information{
+     margin-left: 333px;
+    margin-top: 190px;
+  }
+  
+  ul, li {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+a {text-decoration:none;}
+
+.profile-wrapper {
+        width: 52px;
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+.profile-wrapper::after {
+	content: '';
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	border-color: #333 transparent transparent;
+	border-width: 6px;
+	border-style: solid;
+}
+.profile-wrapper::before {
+	content: '';
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	border-color: #eee transparent transparent;
+	border-width: 6px;
+	border-style: solid;
+}
+.profile-wrapper:hover::after {
+	border-color: #111 transparent transparent;	
+}
+
+.profile1 {
+    padding: 3px 0px 8px 6px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #555 inset, 0 1px 7px #111;
+    background: -webkit-linear-gradient(#222, #111);
+    margin-top: 20px;
+    height: 38px;
+}
+
+.profile1:hover {
+	cursor:pointer;
+	background:-webkit-linear-gradient(#1f1f1f, #0a0a0a);
+}
+.profile1 .name {
+	font-size:12px;
+	color:#fff;
+	line-height:26px;
+	margin-left:10px;
+}
+.profile1 .name:hover {
+	color:#0088cc;
+}
+.profile1 img {
+    width: 40px;
+    display: inline;
+    float: left;
+    border: 1px solid #111;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
+	    margin: 0px;
+}
+
+/* hide menu */
+.menu {
+display: none;
+    clear: both;
+    margin: 6px 0 0 0;
+    background: #fff;
+    width: 200px;
+    float: right;
+}
+.menu li {
+    font-size: 15px;
+    margin: 0px 7px;
+    padding: 7px 4px;
+    border-bottom: 1px solid #ccc;
+}
+.menu li a {
+	color:#555;
+}
+.menu li:hover > a{
+	 color: #028182;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
+
+/* hover profile show menu */
+.profile1:hover .menu {
+	display:block;
+}
+
+
+
+
+
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+        background-color: #c5c5c587;
+    color: #000;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color: #9990;
+      font-size: 14px;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  background-color: #6660;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+    margin-left: 20px;
+}
+ul.mainmenu {
+    margin: 0px 9px;
+}
+.information {
+    margin-top: 135px;
+}

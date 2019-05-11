@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding: 0;
+	outline: 0;
+}
+
+.holediv{
+    background: url(image/rent-acar.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.login{
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    margin: 0px auto;
+    background: #000000c7;
+
+}
+.from-control{
+    width: 63%;
+    padding: 13px 15px;
+    border: 3px solid #028182;
+    background: #ffffff05;
+    border-radius: 13px;
+	  
+	 }
+.formpage{
+    border: 3px solid #028182;
+    padding: 21px;
+    font-size: 20px;
+    width: 480px;
+    margin: 0 auto;
+    border-radius: 20px;
+	 }
+.login h1{
+	    color: #ffffffd9;
+    font-family: cambria;
+}
+.formpage strong{
+	color: #ffffffd9;
+	    font-family: cambria;
+}
+.button{
+	color: white;
+	background: #028182;
+	    font-size: 16px;
+}
+::placeholder {
+  color: #fff;
+  font-size: 1.0em;
+}
+input[type="text"], input[type="password"], input[type="submit"], textarea, select {
+    outline: none;
+}
+input[type="text"], input[type="password"], textarea, select {
+    color: #fff !important;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 6px 30px;
+    margin: 0 0.3em 0.3em 4em;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #028182;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 17px;
+	border: none;
+}
+.login-button:hover {
+    background: #dadadb;
+    color: #383838;
+}
+.

@@ -1,0 +1,607 @@
+
+body {
+  font-family: cambria;
+  margin: 0;
+  padding: 0;
+}
+
+.profile img {
+    width: 50px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#028182;
+  overflow-x: hidden;
+  padding-top: 3px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover,.dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+td.danger {
+    padding-top: 60px !important;
+}
+/* Main content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #028182;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav h1, h3 {
+    color: #fff;text-align: center;
+}
+.profile {
+    background-color: #028182;
+    height: 125px;
+}
+.information {
+    margin-left: 9%;
+    font-size: 30px;
+    width: 80%;
+}
+input[type=submit]{
+     margin-left: 220px;
+    margin-top: 45px;
+    font-size: 25px;
+    background: #028182;
+    border-radius: 10px;
+    color: white;
+  }
+
+  
+  
+  
+  
+  
+  input {
+    padding: 3px 30px;
+}.information h2 {
+    margin-left: 10%;
+    text-align: center;
+}
+  
+/*   Driver Info */
+  
+  
+  
+  
+
+
+.profile img {
+    width: 50px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#028182;
+  overflow-x: hidden;
+  padding-top: 3px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+  
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #028182;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav h1, h3 {
+    color: #fff;text-align: center;
+}
+.profile {
+    background-color: #028182;
+    height: 125px;
+}
+input[type=submit]{
+     margin-left: 345px;
+    margin-top: 45px;
+    font-size: 25px;
+    background: #028182;
+    border-radius: 10px;
+    color: red;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* CarInfo CSS */
+  
+  
+  
+  
+  
+  
+
+.profile img {
+    width: 50px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#028182;
+  overflow-x: hidden;
+  padding-top: 3px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #028182;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav h1, h3 {
+    color: #fff;text-align: center;
+}
+.profile {
+    background-color: #028182;
+    height: 25px;
+     position: fixed;
+}
+input[type=submit]{
+    margin-left: 345px;
+    margin-top: 45px;
+    font-size: 25px;
+    background: #028182;
+    border-radius: 10px;
+    color: white;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/*  Booking CSS */
+  
+  
+  
+  
+
+.profile img {
+    width: 50px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#028182;
+  overflow-x: hidden;
+  padding-top: 3px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #028182;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav h1, h3 {
+    color: #fff;text-align: center;
+}
+.profile {
+    background-color: #028182;
+    height: 125px;
+}
+input[type=submit]{
+     margin-left: 345px;
+    margin-top: 45px;
+    font-size: 25px;
+    background: #028182;
+    border-radius: 10px;
+    color: white;
+  }
+
+
+/*  Expense CSS */
+  
+  
+  
+  
+
+.profile img {
+    width: 50px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#028182;
+  overflow-x: hidden;
+  padding-top: 3px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #028182;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.sidenav h1, h3 {
+    color: #fff;text-align: center;
+}
+.profile {
+    background-color: #028182;
+    height: 125px;
+}
+input[type=submit]{
+     margin-left: 345px;
+    margin-top: 45px;
+    font-size: 25px;
+    background: #028182;
+    border-radius: 10px;
+    color: white;
+  }
+
+
+
+input[type="date"] {
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 217px;
+}
+
+
+
+
+
+
+
+
+/* User CSS*/
+
+
+
+
+
+.Registration strong{
+	margin-right: 20px;
+}
+.Registration{
+	text-align: center;
+	font-size: 28px;
+	margin-top: 160px;
+}
+.Registration h1{
+	color: #028182;
+}
+.Registration strong{
+	color: #028182;
+}
+.button{
+	
+	font-size: 22px; 
+	border-radius: 12px;
+	background: #028182;
+	color: white;
+}
+input[type=text] {
+	border: 2px solid #028182;
+	border-radius: 4px;
+	    font-size: 18px;
+	    width: 350px;
+}
+input.addre-filed {
+    height: 60px;
+    margin-top: 10px;
+}
+h4.oil-cost {
+    margin: 17px 0px;
+}
+input[type=password] {
+	border: 2px solid #028182;
+	border-radius: 4px;
+	    font-size: 18px;
+}
+.information table {
+    margin: 0 auto;
+}
+.formpage{
+	border: 5px solid #028182;
+	height: 280px;
+	width: 498px;
+	margin-left: 500px;
+	padding-top:50px;
+	font-size: 40px;
+    color: #028182;
+}
+input[type=submit] {
+	border: 2px solid #028182;
+	border-radius: 4px;
+	    font-size: 20px;
+    background: #028182;
+    color: white;
+}
+.selecttype{
+	width: 220px;
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    color: black;
+
+}
+input[type="date"] {
+    border: 2px solid #028182;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 217px;
+}

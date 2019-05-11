@@ -1,0 +1,92 @@
+
+.header{
+	    color: black;
+    height: 60px;
+}
+.form{
+	    background: white;
+    color: black;
+    padding-left: 20px;
+        padding-top: 5px;
+       font-size: 35px;
+ size:4px;
+}
+input[type=submit] {
+	border: 2px solid #028182;
+	border-radius: 4px;
+	    font-size: 20px;
+    background: #028182;
+    color: white;
+    margin:40px;
+}
+input[type="date"] {
+    padding: 6px;
+    border: 1px solid #028182;
+    border-radius: 8px;
+}
+button {
+    margin-top: 20px;
+    background: #028182;
+    color: #fff;
+    padding: 9px 31px;
+    font-size: 20px;
+}
+
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+	}
+td {
+    font-family: cambria;
+}
+	td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 5px;
+		 font-family: cambria;
+	}
+button {
+    margin-top: 20px;
+    background: #028182;
+    color: #fff;
+    padding: 9px 31px;
+    font-size: 20px;
+}
+tr:nth-child(even) i {
+    color: #fff;
+}
+	tr:nth-child(even) {
+		    background-color: #028182;
+    color: #fff;
+	}
+	.btn {
+		border: none; /* Remove borders */
+		color: white; /* Add a text color */
+		padding: 14px 28px; /* Add some padding */
+		cursor: pointer; /* Add a pointer cursor on mouse-over */
+	}
+
+	.success {background-color: #4CAF50;} /* Green */
+	.success:hover {background-color: #46a049;}
+
+	.info {background-color: #2196F3;} /* Blue */
+	.info:hover {background: #0b7dda;}
+
+	.warning {background-color: #ff9800;} /* Orange */
+	.warning:hover {background: #e68a00;}
+
+	.danger {background-color: #f44336;} /* Red */ 
+	.danger:hover {background: #da190b;}
+
+	.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+	.default:hover {background: #ddd;}
+	.msg{
+		color: green;
+		background: white;
+		font-size: 16px;
+	}
+
+th {
+    text-align: center;
+}
